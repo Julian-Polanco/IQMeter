@@ -3,7 +3,7 @@ package iqmeter;
 public class IQMeter {
 
     public static void main(String[] args) {
-        Resultados interfaz = new Resultados();
+        Pregunta5 interfaz = new Pregunta5();
         interfaz.setVisible(true);
         interfaz.setLocationRelativeTo(null);
     }
