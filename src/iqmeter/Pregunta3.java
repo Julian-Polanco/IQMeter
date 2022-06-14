@@ -15,6 +15,7 @@ public class Pregunta3 extends javax.swing.JFrame {
      */
     public Pregunta3() {
         initComponents();
+        this.setLocationRelativeTo(null);
     }
 
     /**
