@@ -11,6 +11,7 @@ package iqmeter;
  */
 public class Resultados extends javax.swing.JFrame {
 
+    public static String[][] preguntas= new String[5][3];
     /**
      * Creates new form Resultados
      */

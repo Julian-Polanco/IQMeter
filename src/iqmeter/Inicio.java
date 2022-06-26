@@ -101,7 +101,9 @@ public class Inicio extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        System.out.println("hello");
+        Pregunta1 interfaz = new Pregunta1();
+        this.setVisible(false);
+        interfaz.setVisible(true);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
