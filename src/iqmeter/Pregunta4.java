@@ -155,7 +155,7 @@ public class Pregunta4 extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         Resultados.preguntas[3][0]=jLabel2.getText();
         Resultados.preguntas[3][1]=jButton1.getText();
-        Resultados.preguntas[3][2]="correcta";
+        Resultados.preguntas[3][2]="Correcta";
         Pregunta5 interfaz = new Pregunta5();
         this.setVisible(false);
         interfaz.setVisible(true);

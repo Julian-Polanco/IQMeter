@@ -155,7 +155,7 @@ public class Pregunta5 extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         Resultados.preguntas[4][0]=jLabel2.getText();
         Resultados.preguntas[4][1]=jButton1.getText();
-        Resultados.preguntas[4][2]="Correcta";
+        Resultados.preguntas[4][2]="Incorrecta";
         Resultados interfaz = new Resultados();
         this.setVisible(false);
         interfaz.setVisible(true);
@@ -173,7 +173,7 @@ public class Pregunta5 extends javax.swing.JFrame {
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         Resultados.preguntas[4][0]=jLabel2.getText();
         Resultados.preguntas[4][1]=jButton3.getText();
-        Resultados.preguntas[4][2]="Incorrecta";
+        Resultados.preguntas[4][2]="Correcta";
         Resultados interfaz = new Resultados();
         this.setVisible(false);
         interfaz.setVisible(true);
