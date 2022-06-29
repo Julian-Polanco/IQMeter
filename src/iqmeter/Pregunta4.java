@@ -15,6 +15,7 @@ public class Pregunta4 extends javax.swing.JFrame {
      */
     public Pregunta4() {
         initComponents();
+        this.setLocationRelativeTo(null);
     }
 
     /**
@@ -52,22 +53,42 @@ public class Pregunta4 extends javax.swing.JFrame {
         jButton1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jButton1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
 
         jButton2.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
         jButton2.setText("Es el concepto con el cual se aclara que una clase divide la estructura");
         jButton2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jButton2.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
 
         jButton3.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
         jButton3.setText("Las funciones que se utilizan junto con operadores de inserción");
         jButton3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton3.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
 
         jButton4.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
         jButton4.setText("Es una función parte de una clase y su función puede ser eliminada");
         jButton4.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton4.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jButton4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton4ActionPerformed(evt);
+            }
+        });
 
         jLabel1.setFont(new java.awt.Font("Times New Roman", 0, 36)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
@@ -130,6 +151,42 @@ public class Pregunta4 extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        Resultados.preguntas[3][0]=jLabel2.getText();
+        Resultados.preguntas[3][1]=jButton1.getText();
+        Resultados.preguntas[3][2]="Correcta";
+        Pregunta5 interfaz = new Pregunta5();
+        this.setVisible(false);
+        interfaz.setVisible(true);
+    }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        Resultados.preguntas[3][0]=jLabel2.getText();
+        Resultados.preguntas[3][1]=jButton2.getText();
+        Resultados.preguntas[3][2]="Incorrecta";
+        Pregunta5 interfaz = new Pregunta5();
+        this.setVisible(false);
+        interfaz.setVisible(true);
+    }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        Resultados.preguntas[3][0]=jLabel2.getText();
+        Resultados.preguntas[3][1]=jButton3.getText();
+        Resultados.preguntas[3][2]="Incorrecta";
+        Pregunta5 interfaz = new Pregunta5();
+        this.setVisible(false);
+        interfaz.setVisible(true);
+    }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+        Resultados.preguntas[3][0]=jLabel2.getText();
+        Resultados.preguntas[3][1]=jButton4.getText();
+        Resultados.preguntas[3][2]="Incorrecta";
+        Pregunta5 interfaz = new Pregunta5();
+        this.setVisible(false);
+        interfaz.setVisible(true);
+    }//GEN-LAST:event_jButton4ActionPerformed
 
     /**
      * @param args the command line arguments
